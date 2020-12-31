@@ -1,7 +1,12 @@
 """
-SAMPLE.PY
-This is a sample on how to use mario.py. It shows how to register event hook 
-functions and how to let the script run as an endless loop.
+Phillips Hue Remote Sample
+src/hue_mario.py shows howto use Lego Mario to control your Hue lights by
+tilting Mario forward or backward.
+You have to change light Ids in this sample to match your Hue setup. Use
+DebugPrintAllLights method of the HueController to see which light ids 
+you have and in which configuration your lights are the moment, so you can alter
+the Scene Methods (SetBrightLights, SetCozyLights) to control your Hue lights
+correctly.
 ###################################################################################
 MIT License
 Copyright (c) 2020 Bruno Hautzenberger
