@@ -7,6 +7,7 @@ See src/sample.py for a full sample on how to use it.
 
 
 ## TL;DR;
+"just show me how to use it!"
 ```python
 # Initialize Mario
 mario = Mario()
@@ -23,3 +24,12 @@ print("Turn on Mario and press Bluetooth Button")
 loop = asyncio.get_event_loop()
 loop.run_until_complete(mario.Run())
 ```
+
+## Phillips Hue Remote Sample
+src/hue_mario.py shows howto use Lego Mario to control your Hue lights by
+tilting Mario forward or backward.
+You have to change light Ids in this sample to match your Hue setup. Use
+DebugPrintAllLights method of the HueController to see which light ids 
+you have and in which configuration your lights are the moment, so you can alter
+the Scene Methods (SetBrightLights, SetCozyLights) to control your Hue lights
+correctly.
