@@ -33,3 +33,5 @@ DebugPrintAllLights method of the HueController to see which light ids
 you have and in which configuration your lights are the moment, so you can alter
 the Scene Methods (SetBrightLights, SetCozyLights) to control your Hue lights
 correctly.
+
+Here is a [Video](https://youtu.be/PqH4nL4g9cMt)  that shows how the Mario Hue Remote works.
