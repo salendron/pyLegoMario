@@ -31,19 +31,8 @@ import asyncio
 from mario import Mario
 from phue import Bridge
 
+# Change this to match your Hue Bridge IP
 HUE_BRIDGE_IP = "192.168.1.124"
-
-def my_tile_hook(t):
-    """
-    Test Function which will be called as soon as a tile is detected by Mario.
-    t will contain the ID of the tile that was deteced.
-
-    START = 0
-    GOAL = 1
-    RED = 2
-    GREEN = 3
-    """
-    print(t)
 
 class HueController:
 
